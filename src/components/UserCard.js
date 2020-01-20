@@ -5,7 +5,7 @@ const UserCard = props => {
     return (
         <div className = "user-card">
 
-            <img src = {props.img} alt = "user"></img>
+            <img className = "user-img" src = {props.img} alt = "user"></img>
             <h2>{props.name}</h2>
             <span>Github Handle: </span>
             <a href = {props.url}> {props.login} </a>

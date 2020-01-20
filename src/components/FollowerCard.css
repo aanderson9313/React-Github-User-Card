@@ -1,0 +1,18 @@
+.follower-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 15%;
+    height: auto;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+
+}
