@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './components/FollowerCard.css';
-import './components/UserCard.css'
+import './components/UserCard.css';
 import axios from "axios";
 import UserCard from './components/UserCard';
 import FollowerCard from './components/FollowerCard';
@@ -51,6 +51,7 @@ render() {
         <div className = "userCard">
         <h1 className = "user-title">Github User:</h1>
         <UserCard className = "users"
+        name = {this.state.name}
         img = {this.state.img}
         login = {this.state.login}
         followers = {this.state.followers}
@@ -61,7 +62,7 @@ render() {
         <h1 className = "followers-title">Github Followers:</h1>
         <div className = "followers">
           {this.state.followersList.map(item => (
-            <FollowerCard
+            <FollowerCard 
             key = {item.id}
             img = {item.avatar_url}
             login = {item.login}
