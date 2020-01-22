@@ -1,0 +1,30 @@
+
+.follower {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    word-spacing: 0.2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
+img {
+    width: 100px; 
+    height: auto;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
